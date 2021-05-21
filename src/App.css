@@ -13,7 +13,7 @@
   }
 }
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -22,7 +22,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 
 .App-link {
   color: #61dafb;
@@ -36,3 +36,92 @@
     transform: rotate(360deg);
   }
 }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  background-color: black;
+  color: white;
+  border: black solid 3px;
+}
+
+h1 {
+  margin-left: 25px;
+}
+
+nav a {
+  padding: 3px 8px 3px 8px;
+  color: white;
+  text-decoration: none;
+  border: 2px solid white;
+}
+
+nav a:hover {
+  background-color: white;
+  color: black;
+}
+
+.nav-links {
+  margin-top: 25px;
+  margin-right: 25px;
+}
+
+.hero {
+  background-color: #90e0ef;
+  height: 61vh;
+  width: 100%;
+  border-top: solid rgb(0, 0, 0) 1px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://images.unsplash.com/photo-1513104890138-7c749659a591?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.hero-text {
+  margin:auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+  font-size: 24px;
+  margin-top: 21px;
+}
+
+.hero-text button {
+  background-color: rgb(253, 53, 53);
+  padding: 7px 20px 7px 20px;
+  font-weight: bold;
+  color: white;
+}
+
+#build {
+  text-align: center;
+}
+
+form {
+  margin: auto;
+  width: 50%;
+  padding: 1;
+}
+
+.instructions {
+  margin-bottom: 50px;
+}
+
+.selectSize {
+  border-bottom: solid grey 1px;
+}
+
+.selectSauce{
+  border-bottom: solid grey 1px;
+}
+
+.Toppings {
+  border-bottom: solid grey 1px;
+}
+
+#buyerName {
+  border-bottom: solid grey 1px;
+}
+
+
